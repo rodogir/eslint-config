@@ -1,8 +1,11 @@
 name: Publish to GPR
 
 on:
-  release:
-    types: [created] 
+
+on:
+  create:
+    tags:
+      - 'v*'
 
 jobs:
   build:
