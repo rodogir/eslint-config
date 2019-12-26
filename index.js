@@ -8,5 +8,8 @@ module.exports = {
     "prettier",
     "prettier/@typescript-eslint",
     "prettier/react"
-  ]
+  ],
+  rules: {
+    "react/no-array-index-key": "off"
+  }
 };
