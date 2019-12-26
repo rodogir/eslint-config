@@ -8,5 +8,8 @@
   },
   "peerDependencies": {
     "eslint": "6"
+  },
+  "devDependencies": {
+    "eslint": "6"
   }
 }
