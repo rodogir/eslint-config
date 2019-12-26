@@ -1,8 +1,6 @@
 name: Publish to GPR
 
 on:
-
-on:
   create:
     tags:
       - 'v*'
