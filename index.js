@@ -10,6 +10,13 @@ module.exports = {
     "prettier/react"
   ],
   rules: {
+    // anchor tags in Next.js never have a explicit href.
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        aspects: ["invalidHref", "preferButton"]
+      }
+    ],
     "react/no-array-index-key": "off"
   }
 };
