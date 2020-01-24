@@ -3,8 +3,13 @@
   "version": "0.2.6",
   "main": ".eslintrc.js",
   "license": "MIT",
+  "repository": "github:rodogir/eslint-config",
+  "homepage": "https://github.com/rodogir/eslint-config#rodogireslint-config",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "format": "prettier --write \"**/*.{js,json}\""
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "2",
@@ -21,7 +26,7 @@
     "typescript": "3.7"
   },
   "devDependencies": {
-    "@rodogir/prettier-config": "^0.3.0",
+    "@rodogir/prettier-config": "0.3",
     "typescript": "3.7"
   }
 }
