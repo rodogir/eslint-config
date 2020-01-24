@@ -16,6 +16,8 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@rodogir'
       - run: yarn install --frozen-lockfile
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
