@@ -1,7 +1,7 @@
 {
   "name": "@rodogir/eslint-config",
   "version": "0.2.6",
-  "main": "index.js",
+  "main": ".eslintrc.js",
   "license": "MIT",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
