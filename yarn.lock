@@ -33,10 +33,10 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
-"@rodogir/prettier-config@^0.3.0":
-  version "0.3.0"
-  resolved "https://npm.pkg.github.com/download/@rodogir/prettier-config/0.3.0/913d4fec58b1f133bfd73cbce6ab772f59add4d488ea6fba8915f1e478be3186#4932a82db3607aa1f0d580d885f104bc8f9e588c"
-  integrity sha512-KubzrA7V/Fr9ZU+R5DKsCGSb2GXDOlilkWj+E4pkgHYJIPShAlE/Vp9NCO5mFnFLEIdkZpnjCuI2PwrpLw6esA==
+"@rodogir/prettier-config@0.3":
+  version "0.3.1"
+  resolved "https://npm.pkg.github.com/download/@rodogir/prettier-config/0.3.1/a68c8ca34809856d95973acd17cb8404f35b07e003f51ab0f2d6990cc370f23f#7138540f060dcd1a3fe70305ddf3a860a1f456fb"
+  integrity sha512-4OWxfdmJIdOph40AHn3pJDEsn8qlCwJe7uCCH1QfyoXjaIqmw8gt3b3/qSZP26B/SWGoYnbyCB4pNt96HXxxVQ==
   dependencies:
     prettier "1.19"
 
