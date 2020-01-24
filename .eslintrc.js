@@ -7,7 +7,7 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "prettier",
     "prettier/@typescript-eslint",
-    "prettier/react"
+    "prettier/react",
   ],
   rules: {
     // hook rules
@@ -24,11 +24,11 @@ module.exports = {
     "jsx-a11y/anchor-is-valid": [
       "error",
       {
-        aspects: ["invalidHref", "preferButton"]
-      }
+        aspects: ["invalidHref", "preferButton"],
+      },
     ],
     "react/jsx-props-no-spreading": "off",
     "react/no-array-index-key": "off",
-    "react/prop-types": "off"
-  }
+    "react/prop-types": "off",
+  },
 };

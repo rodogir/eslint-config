@@ -21,6 +21,7 @@
     "typescript": "3.7"
   },
   "devDependencies": {
+    "@rodogir/prettier-config": "^0.3.0",
     "typescript": "3.7"
   }
 }

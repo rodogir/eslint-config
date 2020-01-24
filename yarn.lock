@@ -33,6 +33,13 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
+"@rodogir/prettier-config@^0.3.0":
+  version "0.3.0"
+  resolved "https://npm.pkg.github.com/download/@rodogir/prettier-config/0.3.0/913d4fec58b1f133bfd73cbce6ab772f59add4d488ea6fba8915f1e478be3186#4932a82db3607aa1f0d580d885f104bc8f9e588c"
+  integrity sha512-KubzrA7V/Fr9ZU+R5DKsCGSb2GXDOlilkWj+E4pkgHYJIPShAlE/Vp9NCO5mFnFLEIdkZpnjCuI2PwrpLw6esA==
+  dependencies:
+    prettier "1.19"
+
 "@types/eslint-visitor-keys@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@types/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#1ee30d79544ca84d68d4b3cdb0af4f205663dd2d"
@@ -1127,6 +1134,11 @@ prelude-ls@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
+
+prettier@1.19:
+  version "1.19.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
+  integrity sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==
 
 progress@^2.0.0:
   version "2.0.3"
