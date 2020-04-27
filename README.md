@@ -21,7 +21,7 @@ Then, create a `.eslintrc.js` file with the following content.
 
 ```js
 module.exports = {
-  extends: "@rodogir/eslint-config"
+  extends: "@rodogir/eslint-config",
 };
 ```
 

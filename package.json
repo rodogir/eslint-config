@@ -9,7 +9,7 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
-    "format": "prettier --write \"**/*.{js,json}\""
+    "format": "prettier --write \"**/*.{js,json,md}\""
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "2",
