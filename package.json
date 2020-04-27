@@ -1,6 +1,6 @@
 {
   "name": "@rodogir/eslint-config",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "main": ".eslintrc.js",
   "license": "MIT",
   "repository": "github:rodogir/eslint-config",
