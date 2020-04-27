@@ -15,18 +15,18 @@
     "@typescript-eslint/eslint-plugin": "2",
     "@typescript-eslint/parser": "2",
     "eslint": "6",
-    "eslint-config-airbnb-typescript": "6",
+    "eslint-config-airbnb-typescript": "7",
     "eslint-config-prettier": "6",
     "eslint-plugin-import": "2",
     "eslint-plugin-jsx-a11y": "6",
     "eslint-plugin-react": "7",
-    "eslint-plugin-react-hooks": "1"
+    "eslint-plugin-react-hooks": "2"
   },
   "peerDependencies": {
-    "typescript": "3.7"
+    "typescript": ">=3.8"
   },
   "devDependencies": {
     "@rodogir/prettier-config": "0.4",
-    "typescript": "3.7"
+    "typescript": "3.8"
   }
 }
