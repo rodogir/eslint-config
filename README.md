@@ -36,3 +36,12 @@ Add a script to lint your code to the `package.json`
   }
 }
 ```
+
+Add a `tsconfig.eslint.json` file with the following content. See [here](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/parser#parseroptionsproject) why this is necessary.
+
+```json
+{
+  "extends": "./tsconfig.json",
+  "include": ["/**/*.ts", "/**/*.tsx", "./**/*.js"]
+}
+```
