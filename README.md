@@ -45,3 +45,17 @@ Add a `tsconfig.eslint.json` file with the following content. See [here](https:/
   "include": ["/**/*.ts", "/**/*.tsx", "./**/*.js"]
 }
 ```
+
+## Publish new version
+
+Use the `npm version` command to update the version number. This will automatically create a commit and tag it.
+
+```bash
+npm version minor
+```
+
+Now, just push the tag to origin and the the new version is automatically released to GitHub Packages.
+
+```bash
+git push --tags
+```
