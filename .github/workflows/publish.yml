@@ -16,6 +16,8 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: "@rodogir"
       - run: yarn install --immutable
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - run: yarn npm publish
         env:
           YARN_NPM_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
