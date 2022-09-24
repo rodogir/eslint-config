@@ -12,21 +12,28 @@
     "format": "prettier --write \"**/*.{js,json,md}\""
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "2",
-    "@typescript-eslint/parser": "2",
-    "eslint": "6",
-    "eslint-config-airbnb-typescript": "7",
-    "eslint-config-prettier": "6",
-    "eslint-plugin-import": "2",
-    "eslint-plugin-jsx-a11y": "6",
-    "eslint-plugin-react": "7",
-    "eslint-plugin-react-hooks": "2"
+    "@rushstack/eslint-patch": "~1.1.4",
+    "@typescript-eslint/eslint-plugin": "~5.36.2",
+    "@typescript-eslint/parser": "~5.36.2",
+    "eslint-config-airbnb": "~19.0.4",
+    "eslint-config-airbnb-base": "~15.0.0",
+    "eslint-config-airbnb-typescript": "~17.0.0",
+    "eslint-config-prettier": "~8.5.0",
+    "eslint-plugin-import": "~2.26.0",
+    "eslint-plugin-jsx-a11y": "~6.6.1",
+    "eslint-plugin-mocha": "~10.1.0",
+    "eslint-plugin-react": "~7.31.8",
+    "eslint-plugin-react-hooks": "~4.6.0"
   },
   "peerDependencies": {
-    "typescript": ">=3.8"
+    "eslint": "8",
+    "typescript": "4"
   },
   "devDependencies": {
-    "@rodogir/prettier-config": "0.4",
-    "typescript": "3.8"
-  }
+    "@rodogir/prettier-config": "~0.6",
+    "eslint": "~8.24.0",
+    "prettier": "~2.7.1",
+    "typescript": "~4.8.3"
+  },
+  "packageManager": "yarn@3.2.3"
 }

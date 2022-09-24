@@ -14,7 +14,7 @@ This `eslint` config supports the following technologies and plugins:
 ## Quick Start
 
 ```bash
-yarn add -D @rodogir/eslint-config
+yarn add -D @rodogir/eslint-config prettier@2
 ```
 
 Then, create a `.eslintrc.js` file with the following content.
